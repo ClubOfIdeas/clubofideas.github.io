@@ -1,0 +1,39 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+}
+header {
+  background-color: black;
+  padding: 20px;
+  color: white;
+
+}
+#icon {
+  height: 100%;
+}
+#title {
+  font-size: 40px;
+}
+nav {
+  margin: 0;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  margin: 2px;
+  background-color: blue;
+  display: inline-block;
+}
+#content {
+  width: 80%;
+  background-color: white;
+  min-height: 100%;
+  margin-top: 0;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
