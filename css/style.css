@@ -9,6 +9,8 @@ header {
   padding: 20px 10%;
   color: white;
   transition-duration: 0.5s;
+  position: fixed;
+  width: 100%;
 }
 footer {
   background-color: black;
@@ -69,13 +71,10 @@ nav a:hover {
   transition-duration: 0.5s;
 }
 #cover {
-  width: 60%;
-  margin-left: 20%;
-  margin-right: 20%;
+  width: 100%;
 }
 .coverScroll {
   padding: 15px 10% 15px 10%;
-  position: fixed;
   width: 100%;
   transition-duration: 0.5s;
 }
@@ -97,10 +96,9 @@ nav a:hover {
   width: 80%;
   background-color: white;
   min-height: 600px;
-  margin-top: 0;
-  padding: 10px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding: 50px;
+  padding-top: 100px;
 }
