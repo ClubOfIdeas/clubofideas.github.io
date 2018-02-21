@@ -2,12 +2,13 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  background-color: gray;
+  background-color: lightgray;
 }
 header {
   background-color: black;
   padding: 20px 10%;
   color: white;
+  transition-duration: 0.5s;
 }
 footer {
   background-color: black;
@@ -16,11 +17,19 @@ footer {
   clear: both;
 }
 #icon {
-  height: 40px;
+  height: 50px;
   display: inline-block;
+  position: relative;
+  bottom: 3px;
+  transition-duration: 0.5s;
 }
 #title {
+  text-decoration: none;
   font-size: 40px;
+  transition-duration: 0.5s;
+}
+header a {
+  text-decoration: none;
 }
 #branches {
   position: absolute;
@@ -33,11 +42,56 @@ footer {
   padding: 10px;
   font-size: 20px;
   cursor: pointer;
+  transition-duration: 0.5s;
+}
+nav {
+  right: 10%;
+  width: 40%;
+  background-color: black;
+  color: #72f738;
+  top: 100px;
+  position: fixed;
+  border: 1px solid gray;
+  transition-duration: 0.5s;
+  display: none;
+}
+nav a {
+  width: 100%;
+  padding: 10px;
+  border-top: 1px solid gray;
+  display: block;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.coverScroll nav {
+  top: 75px;
+  transition-duration: 0.5s;
 }
 #cover {
-  height: 400px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.coverScroll {
+  padding: 15px 10% 15px 10%;
+  position: fixed;
+  width: 100%;
+  transition-duration: 0.5s;
+}
+.coverScroll #title {
+  font-size: 30px;
+  transition-duration: 0.5s;
+}
+.coverScroll #branches {
+  font-size: 18px;
+  padding: 8px;
+  top: 15px;
+  transition-duration: 0.5s;
+}
+.coverScroll #icon {
+  height: 30px;
+  transition-duration: 0.5s;
 }
 #content {
   width: 80%;
@@ -48,4 +102,5 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding: 50px;
 }
